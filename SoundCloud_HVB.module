@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/hvbstar/devhvb/main/SoundCloud_HVB.module
 #!name=SoundCloudGo+ | Hoàng Văn Bảo (HVB)
-#!desc=SoundCloudGo+ Free with Long-Term Activation by HVB
+#!desc=SoundCloudGo+ Free by HVB
 [Script]
 SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hvbstar/devhvb/main/SoundCloudGoPlus_HVB.js
 [MITM]
