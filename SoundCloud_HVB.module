@@ -1,0 +1,7 @@
+#!url=https://raw.githubusercontent.com/hvbstar/coderhvb/main/Locket_hvb_fixed.sgmodule
+#!name=SoundCloudGo+ | Hoàng Văn Bảo (HVB)
+#!desc=SoundCloudGo+ Free by HVB
+[Script]
+SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/HoangVanBao/HVB-Scripts/main/soundcloud.js
+[MITM]
+hostname= %APPEND% api-mobile.soundcloud.com
